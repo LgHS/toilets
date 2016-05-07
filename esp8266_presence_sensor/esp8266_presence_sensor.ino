@@ -3,9 +3,9 @@
 
 // Update these with values suitable for your network.
 
-const char* ssid = "WRITE-SSID-HERE";
-const char* password = "WRITE-PWD-HERE";
-const char* mqtt_server = "WRITE-SERVER-HERE";
+const char* ssid = "";
+const char* password = "";
+const char* mqtt_server = "";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
